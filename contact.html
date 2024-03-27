@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <hr />
+    <ul class="navbar">
+        <li><a href="./index.html">Homepage</a></li><span>|</span>
+        <li><a href="./education.html">Education</a></li><span>|</span>
+        <li><a href="./work.html">Work Experience</a></li><span>|</span>
+        <li><a href="#">Contact Me</a></li><span>|</span>
+    </ul>
+    <hr />
+    <h1>Contact Me</h1>
+    <br />
+    <div>
+        <p>Please enter your information here.</p>
+        <br />
+        <br />
+        <p>I'll get back to you as soon as I can, thank you.</p>
+
+        <br />
+        <br />
+        <br />
+        <form action="" method="GET">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="flname">Your Name:</label><br />
+                <input type="text" id="flname" name="flname" value="First and Last Name"><br />
+                <br />
+                <label for="email">Your Email:</label><br />
+                <input type="text" id="email" name="email" value="example@gmail.com"><br />
+                <br />
+                <label for="cars">Reason for Contacting:</label><br />
+                <select id="reason" name="reason">
+                    <option value="business">Business</option>
+                    <option value="personal">Personal</option>
+                    <option value="investment">Investments</option>
+                    <option value="others">Others</option>
+                </select>
+                <br />
+                <br />
+                <label for="comment">Message</label><br />
+                <textarea name="message" rows="10" cols="30">Please enter your message here.
+        </textarea><br />
+                <br />
+                <button>Submit</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

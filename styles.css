@@ -1,0 +1,83 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 8px;
+    justify-content: left;
+    display: flex;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+body {
+    background-color: floralwhite;
+    margin-left: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+h4 {
+    display: inline;
+
+}
+
+p {
+    display: inline;
+
+}
+
+.pictures {
+    padding-left: 30px;
+}
+
+th {
+    background-color: royalblue;
+    border: 2px solid black;
+}
+
+/* Work Table */
+
+.work-table {
+    padding: 8px;
+    text-align: center;
+    border-collapse: collapse;
+
+}
+
+.work-table th,
+td {
+    border: 2px solid black;
+    padding: 4px;
+}
+
+/* Education Table */
+
+.education-table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+    text-align: center;
+}
+
+.year-header {
+    width: 150px;
+}
+
+.institute-header {
+    width: 250px;
+}
+
+.gpa-table {
+    width: 50px;
+}
+
+/*.contact-box {
+    order: 1px dotted;
+p   adding: 16px; */
+
+fieldset {
+    border-radius: 10px;
+}
